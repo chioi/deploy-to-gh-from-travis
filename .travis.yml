@@ -6,10 +6,8 @@ jobs:
   include:
     - stage: unit tests
       script: "yarn test"
-    - stage: build
-      script: "yarn build"
     - stage: deploy to GitHub pages
-      script: skip
+      script: "yarn build"
       deploy:
         provider: pages
         skip_cleanup: true
