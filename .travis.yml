@@ -2,10 +2,19 @@ language: node_js
 node_js:
   "10.15.1"
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_ACCESS_TOKEN
-  local_dir: build
-  on:
-    master
+jobs:
+  include:
+    - stage: unit tests
+      script: "yarn test"
+    - stage: build
+      script: "yarn build"
+    - stage: deploy to GitHub pages
+      script: skip
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GITHUB_ACCESS_TOKEN
+        local_dir: build
+        on:
+          master
+
