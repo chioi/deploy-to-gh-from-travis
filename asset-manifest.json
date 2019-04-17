@@ -1,0 +1,14 @@
+{
+  "main.css": "/deploy-to-gh-from-travis/static/css/main.ff31d4b7.chunk.css",
+  "main.js": "/deploy-to-gh-from-travis/static/js/main.a37685f4.chunk.js",
+  "main.js.map": "/deploy-to-gh-from-travis/static/js/main.a37685f4.chunk.js.map",
+  "runtime~main.js": "/deploy-to-gh-from-travis/static/js/runtime~main.446a6dd4.js",
+  "runtime~main.js.map": "/deploy-to-gh-from-travis/static/js/runtime~main.446a6dd4.js.map",
+  "static/js/2.4b44abd2.chunk.js": "/deploy-to-gh-from-travis/static/js/2.4b44abd2.chunk.js",
+  "static/js/2.4b44abd2.chunk.js.map": "/deploy-to-gh-from-travis/static/js/2.4b44abd2.chunk.js.map",
+  "index.html": "/deploy-to-gh-from-travis/index.html",
+  "precache-manifest.d13eb2584d5b938606585059021115fe.js": "/deploy-to-gh-from-travis/precache-manifest.d13eb2584d5b938606585059021115fe.js",
+  "service-worker.js": "/deploy-to-gh-from-travis/service-worker.js",
+  "static/css/main.ff31d4b7.chunk.css.map": "/deploy-to-gh-from-travis/static/css/main.ff31d4b7.chunk.css.map",
+  "static/media/logo.svg": "/deploy-to-gh-from-travis/static/media/logo.5d5d9eef.svg"
+}
