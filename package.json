@@ -2,6 +2,7 @@
   "name": "deploy-to-gh-from-travis",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://chioi.github.io/deploy-to-gh-from-travis",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
